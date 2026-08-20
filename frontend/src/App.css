@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Inter', system-ui, sans-serif;
+  background: linear-gradient(135deg, #f0f4ff 0%, #e8f0fe 100%);
+  min-height: 100vh;
+}
+
+.page {
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+.page h1 {
+  font-size: 2.4rem;
+  color: #1a2b4a;
+  margin-bottom: 8px;
+}
+
+.page p {
+  color: #5a6b8c;
+  font-size: 1.05rem;
+  margin: 4px 0;
+}
+
+h2 {
+  text-align: center;
+  color: #2a3b5c;
+  margin: 30px 0 20px;
+  font-size: 1.5rem;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px 40px;
+}
+
+.booking-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 24px 28px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(30, 41, 59, 0.08);
+  text-align: left;
+}
+
+.booking-form div {
+  margin-bottom: 16px;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #3d4a63;
+}
+
+.booking-form input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #d1d9e6;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.booking-form button {
+  background: #1a2b4a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.booking-form button:hover {
+  background: #2a3b5c;
+}
+
+.live-preview {
+  text-align: center;
+  color: #2a3b5c;
+  margin-top: 10px;
+}
